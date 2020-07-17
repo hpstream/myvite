@@ -3,14 +3,16 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "my-vite": "nodemon lib/node/index.js"
   },
   "dependencies": {
     "vue": "^3.0.0-beta.15"
   },
   "devDependencies": {
-    "vite": "^1.0.0-beta.3",
-    "@vue/compiler-sfc": "^3.0.0-beta.15"
+    "@vue/compiler-sfc": "^3.0.0-beta.15",
+    "nodemon": "^2.0.4",
+    "vite": "^1.0.0-beta.3"
   },
   "main": "index.js",
   "keywords": [],
